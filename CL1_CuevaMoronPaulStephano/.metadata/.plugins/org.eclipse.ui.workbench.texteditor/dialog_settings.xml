@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="String empleado= new EmpleadoController().crearEmpleado(&quot;Cueva&quot;, &quot;Stephano&quot;, 19,&quot;Masculino&quot;, 3500.80);"/>
+		<list key="findhistory">
+			<item value="String empleado= new EmpleadoController().crearEmpleado(&quot;Cueva&quot;, &quot;Stephano&quot;, 19,&quot;Masculino&quot;, 3500.80);"/>
+		</list>
+	</section>
+</section>

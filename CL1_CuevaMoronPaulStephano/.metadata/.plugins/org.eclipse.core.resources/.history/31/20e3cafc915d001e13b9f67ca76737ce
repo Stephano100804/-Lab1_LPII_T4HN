@@ -1,0 +1,63 @@
+package models;
+
+import java.math.BigDecimal;
+
+public class Empleado {
+	public int idEmpleado;
+	public String Apellidos;
+	public String Nombres;
+	public int Edad;
+	public String Sexo;
+	public BigDecimal  Salario;
+	public int getIdEmpleado() {
+		return idEmpleado;
+	}
+	
+
+	public Empleado(int idEmpleado, String apellidos, String nombres, int edad, String sexo, BigDecimal salario) {
+		this.idEmpleado = idEmpleado;
+		Apellidos = apellidos;
+		Nombres = nombres;
+		Edad = edad;
+		Sexo = sexo;
+		Salario = salario;
+	}
+
+	public Empleado() {
+	}
+
+	public void setIdEmpleado(int idEmpleado) {
+		this.idEmpleado = idEmpleado;
+	}
+	public String getApellidos() {
+		return Apellidos;
+	}
+	public void setApellidos(String apellidos) {
+		Apellidos = apellidos;
+	}
+	public String getNombres() {
+		return Nombres;
+	}
+	public void setNombres(String nombres) {
+		Nombres = nombres;
+	}
+	public int getEdad() {
+		return Edad;
+	}
+	public void setEdad(int edad) {
+		Edad = edad;
+	}
+	public String getSexo() {
+		return Sexo;
+	}
+	public void setSexo(String sexo) {
+		Sexo = sexo;
+	}
+	public BigDecimal getSalario() {
+		return Salario;
+	}
+	public void setSalario(BigDecimal salario) {
+		Salario = salario;
+	}
+	
+}

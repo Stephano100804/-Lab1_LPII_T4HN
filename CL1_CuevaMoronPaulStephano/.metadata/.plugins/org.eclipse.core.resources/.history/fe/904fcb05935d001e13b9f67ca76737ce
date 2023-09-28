@@ -1,0 +1,33 @@
+package Controller;
+import java.math.BigDecimal;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+import models.Empleado;
+
+public class EmpleadoController {
+
+	SessionFactory sessionFactory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Empleado.class).buildSessionFactory();
+	Session session = sessionFactory.openSession();
+	
+	public String crearEmpleado(String ape, String nom, int edad, String sex,BigDecimal salario) {
+		try {
+			Usuario usu = new Usuario(nombre,apellido,ciudad);
+			
+			session.beginTransaction();
+			session.save(usu);
+			session.getTransaction().commit();
+			sessionFactory.close();
+			return "Usuario Creado";
+			
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return "Error al Registrar usuario";
+	}
+	
+	
+}

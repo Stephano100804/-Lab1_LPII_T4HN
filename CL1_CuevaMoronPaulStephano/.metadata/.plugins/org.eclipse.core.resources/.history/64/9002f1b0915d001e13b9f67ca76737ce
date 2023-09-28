@@ -1,0 +1,11 @@
+package models;
+
+public class Empleado {
+	public int idEmpleado;
+	public String Apellidos;
+	public String Nombres;
+	public int Edad;
+	public String Sexo;
+	public BigDecimal Salario;
+	
+}

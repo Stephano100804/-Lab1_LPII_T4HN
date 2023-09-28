@@ -1,0 +1,18 @@
+package Controller;
+import java.math.BigDecimal;
+
+import org.hibernate.cfg.Configuration;
+
+import com.mysql.cj.xdevapi.SessionFactory;
+
+import models.Empleado;
+public class EmpleadoController {
+
+	SessionFactory sessionFactory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Empleado.class).buildSessionFactory();
+	
+	public String crearEmpleado(String ape, String nom, int edad, String sex,BigDecimal salario) {
+		
+	}
+	
+	
+}

@@ -1,0 +1,7 @@
+package views;
+import Controller.EmpleadoController;
+
+
+public class EmpleadoView {
+
+}

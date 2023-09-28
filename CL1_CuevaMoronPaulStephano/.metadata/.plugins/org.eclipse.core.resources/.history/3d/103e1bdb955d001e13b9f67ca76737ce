@@ -1,0 +1,19 @@
+package views;
+import Controller.EmpleadoController;
+
+
+public class EmpleadoView {
+	public static void main(String[] arg) {
+		
+		//REGISTRAR EMPLEADO
+		//String empleado= new EmpleadoController().crearEmpleado("Cueva", "Stephano", 19,"Masculino", 3500.80);
+		//String empleado= new EmpleadoController().crearEmpleado("Cueva", "Renzo", 30,"Masculino", 4692.80);
+		String empleado= new EmpleadoController().crearEmpleado("Carrasco", "Fernandes", 18 ,"Femenino", 4000.80);
+		System.out.println(empleado);
+		
+		//BUSCAR EMPLEADO
+		//String buscarEmpleado = new EmpleadoController().BuscarEmpleado(5);
+		//System.out.println(buscarEmpleado);
+	}
+	
+}

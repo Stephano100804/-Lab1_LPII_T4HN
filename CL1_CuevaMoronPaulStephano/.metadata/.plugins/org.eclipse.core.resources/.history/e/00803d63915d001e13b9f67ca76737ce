@@ -1,0 +1,9 @@
+package models;
+
+public class Empleado {
+	public int idEmpleado;
+	
+	
+	
+	
+}
